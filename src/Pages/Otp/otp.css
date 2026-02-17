@@ -1,0 +1,10 @@
+.otp-holder{
+    background-color: white;
+    width: fit-content;
+    padding: 30px 60px 60px;
+    border-radius: 40px;
+    gap: 16px;
+}
+.otp-holder h1{
+    margin-bottom: 0;
+}
