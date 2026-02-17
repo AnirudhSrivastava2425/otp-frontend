@@ -1,70 +1,115 @@
-# Getting Started with Create React App
+<img width="1916" height="817" alt="image" src="https://github.com/user-attachments/assets/ed2a8680-dbfe-479a-a870-c015ed4a6341" />
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+🔐 OTP Validation App (React)
 
-## Available Scripts
+A simple and interactive OTP (One-Time Password) Validation App built using React.js.
+This project demonstrates practical usage of modern React features including hooks and routing.
 
-In the project directory, you can run:
+🚀 Tech Stack
 
-### `npm start`
+React.js
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+React Hooks (useState, useRef)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+React Router DOM (useParams, useNavigate)
 
-### `npm test`
+JavaScript (ES6+)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+CSS
 
-### `npm run build`
+📌 Features
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+🔢 4-digit OTP input component (Value can change dynamically as it is passed as a prop)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+⌨️ Automatic focus shift between input boxes
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+⬅️ Backspace navigation handling with paste text functionality
 
-### `npm run eject`
+✅ OTP validation logic
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+🌐 Routing with dynamic parameters
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+🔄 Programmatic navigation using React Router
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+<img width="1915" height="806" alt="image" src="https://github.com/user-attachments/assets/a8934333-6d42-4f53-94d2-7f780e7b9591" />
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+🧠 Concepts Demonstrated
+1️⃣ useState
 
-## Learn More
+Used to:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Store OTP input values
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Handle validation state
 
-### Code Splitting
+Manage error/success messages
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+2️⃣ useRef
 
-### Analyzing the Bundle Size
+Used to:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Automatically shift focus between input boxes
 
-### Making a Progressive Web App
+Control DOM elements directly
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Improve OTP user experience
 
-### Advanced Configuration
+3️⃣ React Router DOM
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Implemented routing using:
 
-### Deployment
+useParams → To read dynamic route parameters
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+useNavigate → To redirect users programmatically
 
-### `npm run build` fails to minify
+BrowserRouter, Routes, and Route → For routing setup
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+⚙️ Installation & Setup
+
+1️⃣ Clone the repository
+
+git clone https://github.com/your-username/otp-validation-app.git
+
+
+2️⃣ Navigate into the project folder
+
+cd otp-validation-app
+
+
+3️⃣ Install dependencies
+
+npm install
+
+
+4️⃣ Start the development server
+
+npm start
+
+
+The app will run on:
+
+http://localhost:3000
+
+🎯 Learning Outcome
+
+This project strengthened:
+
+Practical understanding of React Hooks
+
+Controlled vs uncontrolled components
+
+DOM manipulation using useRef
+
+Routing and navigation in React
+
+Form validation logic
+
+📸 Future Improvements
+
+Add timer for OTP expiration
+
+Add resend OTP functionality
+
+Backend integration for real OTP verification
+
+Better UI styling
